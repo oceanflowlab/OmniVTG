@@ -150,6 +150,8 @@ python src/merge_lora_weights.py \
     --save-model-path /path/to/cot_model
 ```
 
+Replace the merged model's `config.json` (`/path/to/cot_model/config.json`) with the [`config.json`](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct/blob/main/config.json) from **Qwen2.5‑VL‑7B‑Instruct**; otherwise vLLM inference may encounter problems.
+
 ### 4. Reinforcement Learning (RL)
 
 Modify `scripts/run_rl.sh` by changing the `MODEL_NAME` variable to your merged CoT model path (`/path/to/cot_model`). Then run:
@@ -168,6 +170,8 @@ python -m verl.model_merger merge \
 ```
 
 > *Replace `global_step_<xxx>` with the actual step number of your best checkpoint.*
+
+Replace the merged model's `config.json` (`/path/to/merged_final_model/config.json`) with the [`config.json`](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct/blob/main/config.json) from **Qwen2.5‑VL‑7B‑Instruct**; otherwise vLLM inference may encounter problems.
 
 ---
 
