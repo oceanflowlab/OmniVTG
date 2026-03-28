@@ -175,6 +175,12 @@ Replace the merged model's `config.json` (`/path/to/merged_final_model/config.js
 
 ---
 
+## 🤝 Acknowledgements
+
+We thank the following projects: [time-r1](https://github.com/xiaomi-research/time-r1), [verl](https://github.com/verl-project/verl), [Qwen-VL-Series-Finetune](https://github.com/2U1/Qwen-VL-Series-Finetune), [vLLM](https://github.com/vllm-project/vllm)
+
+---
+
 ## 📝 Citation
 
 If you find our work helpful for your research, please consider citing our paper:
@@ -187,3 +193,6 @@ If you find our work helpful for your research, please consider citing our paper
     year={2026},
 }
 ```
+
+> **Disclaimer:** This open source project is not an official Huawei product, Huawei is not expected to provide support for this project.
+
