@@ -1,6 +1,7 @@
 # OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding
 
 <div align="center">
+
 [![Paper](https://img.shields.io/badge/Paper-PDF-d9534f.svg)](https://arxiv.org/abs/2604.25276)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-OmniVTG--7B-007ec6.svg)](https://huggingface.co/zhengmh/OmniVTG-7B)
 [![ModelScope](https://img.shields.io/badge/🤖%20ModelScope-OmniVTG--7B-007ec6.svg)](https://modelscope.cn/models/zhengmh/OmniVTG-7B)
