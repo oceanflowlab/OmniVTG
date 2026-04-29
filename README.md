@@ -194,5 +194,5 @@ If you find our work helpful for your research, please consider citing our paper
 }
 ```
 
-> **Disclaimer:** This open source project is not an official Huawei product, Huawei is not expected to provide support for this project.
+
 
