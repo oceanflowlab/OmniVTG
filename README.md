@@ -5,6 +5,7 @@
 [![Paper](https://img.shields.io/badge/Paper-PDF-d9534f.svg)](https://arxiv.org/abs/2604.25276)
 [![Hugging Face](https://img.shields.io/badge/🤗%20Hugging%20Face-OmniVTG--7B-007ec6.svg)](https://huggingface.co/zhengmh/OmniVTG-7B)
 [![ModelScope](https://img.shields.io/badge/🤖%20ModelScope-OmniVTG--7B-007ec6.svg)](https://modelscope.cn/models/zhengmh/OmniVTG-7B)
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-OmniVTG--Dataset-007ec6.svg)](https://huggingface.co/datasets/zhengmh/OmniVTG-Dataset)
 [![Project Page](https://img.shields.io/badge/Project-Page-97ca00.svg)](https://minghangz.github.io/publication/omnivtg/)
 
 **[CVPR 2026]** Official PyTorch Implementation for OmniVTG.
@@ -45,7 +46,7 @@ To overcome these limitations, we introduce **OmniVTG**, a new large-scale datas
 
 - [x] Release OmniVTG Model weights and evaluation scripts.
 - [x] Release the complete training pipeline code (SFT, CoT, RL).
-- [ ] Release the OmniVTG Dataset. *(Coming soon!)*
+- [x] Release the OmniVTG Dataset.
 
 ---
 
@@ -90,9 +91,11 @@ Download the videos for the respective evaluation datasets using the links below
 | **ActivityNet Captions** | [Download](http://activity-net.org/download.html) |
 | **QVHighlights** | [Download](https://nlp.cs.unc.edu/data/jielei/qvh/qvhilights_videos.tar.gz) |
 | **TVGBench** | [Download](https://huggingface.co/datasets/Boshenxx/TimeR1-Dataset) |
-| **OmniVTG** | *Coming soon* |
+| **OmniVTG** | [Instruction](data/README.md) |
 
-After downloading, configure the video paths in `standalone_eval/dataset_config.py`.
+Download the [annotation files](https://huggingface.co/datasets/zhengmh/OmniVTG-Dataset/tree/main/test_data) and put them in `standalone_eval/annotations/`.
+
+After downloading, configure the video paths and annotation files in `standalone_eval/dataset_config.py`.
 
 ### 2. Run Evaluation
 
@@ -113,7 +116,7 @@ The training paradigm of OmniVTG consists of three main stages: SFT, CoT Tuning,
 
 ### 1. Data Preparation
 
-* Download the **OmniVTG Dataset** *(Coming soon)* and place it in `data/OmniVTG`.
+* Download the **[OmniVTG Dataset](https://huggingface.co/datasets/zhengmh/OmniVTG-Dataset)** following this [instruction](data/README.md).
 * Download the **[TimeR1 Dataset](https://huggingface.co/datasets/Boshenxx/TimeR1-Dataset)** and place it in `data/TimeR1-Dataset`.
 
 ### 2. Supervised Fine-Tuning (SFT)
