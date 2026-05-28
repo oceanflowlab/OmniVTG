@@ -189,11 +189,13 @@ We thank the following projects: [time-r1](https://github.com/xiaomi-research/ti
 If you find our work helpful for your research, please consider citing our paper:
 
 ```bibtex
-@inproceedings{zheng2026omnivtg,
-    title={OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding}, 
-    author={Zheng, Minghang and Yin, Zihao and Yang, Yi and Peng, Yuxin and Liu, Yang},
-    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-    year={2026},
+@InProceedings{Zheng_2026_CVPR,
+    author    = {Zheng, Minghang and Yin, Zihao and Yang, Yi and Peng, Yuxin and Liu, Yang},
+    title     = {OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2026},
+    pages     = {24620-24629}
 }
 ```
 
